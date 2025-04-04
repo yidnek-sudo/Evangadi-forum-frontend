@@ -24,7 +24,7 @@ function Home() {
   useEffect(() => {
     setLoading(true);
     const token = localStorage.getItem("token");
-    const storedUsername = localStorage.getItem("user")
+    const storedUsername = localStorage.getItem("username")
     
     if (!token) {
       setError("You are not authenticated. Please log in.");
