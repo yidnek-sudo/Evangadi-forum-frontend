@@ -46,7 +46,7 @@ const SignUp = () => {
         setMessage("Registered successfully. Please login.")
         setTimeout(()=>{
           navigate("/SignIn");
-        },3000)
+        },6063)
       
       }
     } catch (error) {
